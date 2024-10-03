@@ -1,0 +1,102 @@
+@import url("https://fonts.google.com/specimen/Young+Serif");
+@import url("https://fonts.google.com/specimen/Outfit");
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Young Serif", sans-serif;
+}
+
+h1,h2,h3,h4{
+    font-family: "Outfit",serif;
+    margin: 15px 0;
+    color: hsl(332, 51%, 32%);
+}
+h1{
+    color: black;
+}
+
+p{
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+    margin: 5px 0;
+}
+
+li{
+    margin: 15px 20px;
+    color: hsl(30, 10%, 34%);
+    font-size: 16px;
+}
+
+span{
+    color: hsl(30, 10%, 34%);
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30, 54%, 90%);
+    padding: 50px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recipe-card{
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+    width: 700px;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+.omelette-img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.prep-time{
+    margin:20px;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 15px;
+    padding: 10px 10px;
+}
+
+.prep-time h3{
+    font-family: "Young Serif",sans-serif;
+}
+
+.prep-time ul{
+    margin: 5px 30px;
+}
+
+.txt-bold{
+    font-weight: bold;
+}
+
+.nutrition{
+    display: flex;
+    margin: 20px 10px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nutrition div{
+    margin: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+hr{
+    color: hsl(30, 54%, 90%);
+}
+
+
+
